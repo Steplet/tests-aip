@@ -1,22 +1,26 @@
 def task_1(two_dim_words):
-    """
+    two_dim_words = [['art', 'common'], ['club', 'star'], ['nature', 'queen'], ['alpha', 'center', 'water']]
+    list_2 = []
+    for i in range(len(list_1)):
+        if len(list_1[i]) > 1:
+            for step in range(len(list_1[i])):
+                list_2.append(list_1[i][step])
+        else:
+            list_2.append(list_1[i])
+
+    list_2.sort()
+    list_2.sort(key=len)
+    list_2 = sorted_words
+    #print(list_2)
+
+    return sorted_words
+
+ """
         Здесь должен быть ваш код.
         Переменная two_dim_words - ваш двумерный список.
         Заполнять список значениями не нужно.
         Финальное значение должно быть помещено в переменную sorted_words.
         """
-
-    return sorted_words
-
-
-def task_3(numbers):
-    """
-        Здесь должен быть ваш код.
-        Переменная numbers - ваша строка чисел.
-        Финальное значение должно быть помещено в переменную dict_min.
-        """
-
-    return dict_min
 
 
 def task_4_1(words):
