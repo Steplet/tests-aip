@@ -1,12 +1,12 @@
 def task_1(two_dim_words):
     #two_dim_words = [['art', 'common'], ['club', 'star'], ['nature', 'queen'], ['alpha', 'center', 'water']]
     list_2 = []
-    for i in range(len(list_1)):
-        if len(list_1[i]) > 1:
-            for step in range(len(list_1[i])):
-                list_2.append(list_1[i][step])
+    for i in range(len(two_dim_words)):
+        if len(two_dim_words[i]) > 1:
+            for step in range(len(two_dim_words[i])):
+                list_2.append(two_dim_words[i][step])
         else:
-            list_2.append(list_1[i])
+            list_2.append(two_dim_words[i])
 
     list_2.sort()
     list_2.sort(key=len)
