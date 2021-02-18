@@ -47,21 +47,24 @@ def task_4_3(words):
 
 
 def task_5(lst1, lst2):
-    """
-        Здесь должен быть ваш код.
-        Переменные lst1 и lst2 - два данных списка.
-        Финальное значение должно быть помещено в переменную diff.
-        """
+    #list_1 = [1, 45, 78, 23242, 988]
+    #list_2 = [23, 745, 99, 121, 66, 1, 45]
+    set_1 = set(list_1)
+    set_2 = set(list_2)
+    set_1.difference_update(set_2)
+    #print(set_1)
+    diff = set_1
 
     return diff
 
 
 def task_6(lst):
-    """
-        Здесь должен быть ваш код.
-        Переменная lst - ваш список.
-        Финальное значение должно быть помещено в переменную res.
-        """
+    #list_1 = input().split()
+    a = set(list_1)
+    b = tuple(sorted(a))
+    print(b)
+    
+
 
     return res
 
