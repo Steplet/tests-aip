@@ -32,7 +32,6 @@ def task_5(lst1, lst2):
 
 
 def task_6(lst):
-    #list_1 = input().split()
     a = set(lst)
     b = tuple(a)
     #print(b)
