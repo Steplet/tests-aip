@@ -34,9 +34,9 @@ def task_5(lst1, lst2):
 def task_6(lst):
     #list_1 = input().split()
     a = set(lst)
-    b = tuple(sorted(a))
+    b = tuple(a)
     #print(b)
-    res = b
+    res = tuple(sorted(b)
     
 
 
