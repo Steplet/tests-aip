@@ -37,7 +37,5 @@ def task_6(lst):
     #print(b)
     res = tuple(sorted(b)
     
-
-
     return res
 
