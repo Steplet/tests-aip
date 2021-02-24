@@ -22,8 +22,8 @@ def task_1(two_dim_words):
 def task_5(lst1, lst2):
     #list_1 = [1, 45, 78, 23242, 988]
     #list_2 = [23, 745, 99, 121, 66, 1, 45]
-    set_1 = set(list_1)
-    set_2 = set(list_2)
+    set_1 = set(lst1)
+    set_2 = set(lst2)
     set_1.difference_update(set_2)
     #print(set_1)
     diff = set_1
@@ -33,7 +33,7 @@ def task_5(lst1, lst2):
 
 def task_6(lst):
     #list_1 = input().split()
-    a = set(list_1)
+    a = set(lst)
     b = tuple(sorted(a))
     #print(b)
     res = b
